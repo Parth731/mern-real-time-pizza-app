@@ -13,10 +13,19 @@
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "dependencies": {
+    "axios": "^1.6.3",
+    "connect-mongo": "^5.1.0",
+    "connect-mongodb-session": "^3.1.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
     "ejs": "^3.1.9",
     "express": "^4.18.2",
     "express-ejs-layouts": "^2.5.1",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^8.0.3",
     "nodemon": "^3.0.2",
+    "noty": "^3.2.0-beta-deprecated",
     "touch-cli": "^0.0.1"
   },
   "devDependencies": {
