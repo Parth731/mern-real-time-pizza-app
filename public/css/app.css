@@ -41,11 +41,11 @@ section.hero {
 }
 
 .btn-primary {
-  background: #fe5f1e;
+  background: #fe5f1e !important;
   transition: all 0.3s ease-in-out;
 }
 .btn-primary:hover {
-  background: #b23301;
+  background: #b23301 !important;
 }
 
 section.cart {

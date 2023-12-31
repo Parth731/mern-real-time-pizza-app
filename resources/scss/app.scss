@@ -43,10 +43,10 @@ section.hero {
 }
 
 .btn-primary {
-  background: $primary;
+  background: $primary !important;
   transition: $smooth;
   &:hover {
-    background: $primary-hover;
+    background: $primary-hover !important;
   }
 }
 
